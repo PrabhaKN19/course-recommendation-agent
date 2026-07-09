@@ -1,36 +1,41 @@
 # Course Recommendation Agent
 
-## Overview
+## About
 
-This project is an AI-powered Course Recommendation Agent that suggests suitable courses based on a user's skills and career goals.
+This project is an AI-powered Course Recommendation Agent developed using Flask and Python. It recommends suitable courses based on a user's skills and career goals.
 
 ## Features
 
-- AI-powered course recommendations
-- Simple Flask web interface
-- Personalized suggestions based on user input
+- Personalized course recommendations
+- AI-powered suggestions
+- Simple and user-friendly interface
+- Flask web application
 
-## Requirements
+## Tech Stack
 
-- Python 3.13 or later
-- pip
+- Python
+- Flask
+- HTML
+- CSS
+- OpenAI API
+- JSON
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/PrabhaKN19/course-recommendation-agent.git
 cd course-recommendation-agent
 ```
 
-2. Install dependencies:
+Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file:
+Create a `.env` file in the project folder and add:
 
 ```env
 GENAI_API_KEY=YOUR_API_KEY
@@ -38,9 +43,9 @@ GENAI_API_KEY=YOUR_API_KEY
 
 Replace `YOUR_API_KEY` with your own API key.
 
-## Running the Project
+## Run the Application
 
-Start the Flask application:
+Start the Flask server:
 
 ```bash
 python app.py
@@ -59,9 +64,9 @@ Course-Recommendation-Agent/
 ├── app.py
 ├── agent.py
 ├── requirements.txt
-├── data/
 ├── static/
 ├── templates/
+├── data/
 └── README.md
 ```
 
