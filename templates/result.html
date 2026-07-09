@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Course Recommendation Agent</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Markdown Library -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</head>
+
+<body>
+    <div class="bubbles">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<div class="container">
+
+    <h1> Course Recommendation Result</h1>
+
+    <h3>Student: {{ name }}</h3>
+
+    <h3>Career Goal: {{ goal }}</h3>
+
+    <hr>
+
+    <!-- AI Response -->
+    <div id="result-box"></div>
+
+    <br>
+
+    <a href="/">
+        <button>⬅ Back</button>
+    </a>
+
+</div>
+
+<script>
+
+const markdown = `{{ result | safe }}`;
+
+document.getElementById("result-box").innerHTML =
+marked.parse(markdown);
+
+</script>
+
+</body>
+
+</html>

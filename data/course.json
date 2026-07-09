@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "name": "Python Programming",
+    "category": "Programming",
+    "description": "Learn Python fundamentals including variables, loops, functions, file handling, and object-oriented programming.",
+    "skills": [
+      "Python",
+      "Programming Basics"
+    ],
+    "level": "Beginner",
+    "prerequisites": []
+  },
+  {
+    "id": 2,
+    "name": "Data Structures and Algorithms",
+    "category": "Computer Science",
+    "description": "Understand arrays, linked lists, stacks, queues, trees, graphs, searching, and sorting algorithms.",
+    "skills": [
+      "DSA",
+      "Problem Solving"
+    ],
+    "level": "Intermediate",
+    "prerequisites": [
+      "Python Programming"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Machine Learning Fundamentals",
+    "category": "Artificial Intelligence",
+    "description": "Learn supervised learning, regression, classification, clustering, and model evaluation.",
+    "skills": [
+      "Machine Learning",
+      "Statistics"
+    ],
+    "level": "Intermediate",
+    "prerequisites": [
+      "Python Programming"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Generative AI and Large Language Models",
+    "category": "Artificial Intelligence",
+    "description": "Learn Prompt Engineering, LLMs, Transformers, Retrieval-Augmented Generation (RAG), and AI application development.",
+    "skills": [
+      "Prompt Engineering",
+      "LLM",
+      "Generative AI"
+    ],
+    "level": "Advanced",
+    "prerequisites": [
+      "Machine Learning Fundamentals"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Full Stack Web Development",
+    "category": "Web Development",
+    "description": "Learn HTML, CSS, JavaScript, Flask, APIs, databases, and backend development.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Flask",
+      "Backend"
+    ],
+    "level": "Intermediate",
+    "prerequisites": [
+      "Programming Basics"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "SQL and Database Management",
+    "category": "Database",
+    "description": "Learn SQL queries, normalization, joins, indexing, and relational database design.",
+    "skills": [
+      "SQL",
+      "Database"
+    ],
+    "level": "Beginner",
+    "prerequisites": []
+  },
+  {
+    "id": 7,
+    "name": "Cloud Computing",
+    "category": "Cloud",
+    "description": "Learn cloud concepts, AWS services, virtual machines, storage, networking, and deployment.",
+    "skills": [
+      "AWS",
+      "Cloud",
+      "Deployment"
+    ],
+    "level": "Intermediate",
+    "prerequisites": [
+      "Programming Basics"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cyber Security Fundamentals",
+    "category": "Cyber Security",
+    "description": "Learn network security, encryption, authentication, ethical hacking, and secure coding.",
+    "skills": [
+      "Cyber Security",
+      "Networking",
+      "Linux"
+    ],
+    "level": "Intermediate",
+    "prerequisites": [
+      "Programming Basics"
+    ]
+  }
+]

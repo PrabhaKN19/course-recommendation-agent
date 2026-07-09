@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Course Recommendation Agent</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="bubbles">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<div class="container">
+
+    <h1> CourseCompass</h1>
+
+    <p class="subtitle">
+        Unlock your perfect learning path
+    </p>
+
+    <form action="/recommend" method="POST">
+
+        <label>Full Name</label>
+
+        <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+        >
+
+        <label>Your Skills</label>
+
+        <input
+            type="text"
+            name="skills"
+            placeholder="Example: Python, HTML, CSS"
+            required
+        >
+
+        <label>Career Goal</label>
+
+        <input
+            type="text"
+            name="goal"
+            placeholder="Example: AI Engineer, Web Developer"
+            required
+        >
+
+        <button type="submit">
+            🚀 Click here
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
