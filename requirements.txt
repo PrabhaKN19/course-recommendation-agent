@@ -4,3 +4,4 @@ python-dotenv
 markdown
 gunicorn
 requests
+pytest
